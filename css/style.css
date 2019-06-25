@@ -12,9 +12,22 @@
 .myNavbar{
     width: 100%;
     background: #eee;
+    overflow: hidden;
+    position: sticky;
 }
 
 .myNavbar a{
     padding: 10px;
     font-size: 18px;
+}
+
+main{
+    background: coral;
+}
+
+.mainContent{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    text-align: justify;
 }
