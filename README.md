@@ -6,12 +6,12 @@ Build a Web page for any business/group/institution.
 It should broadly based on the following pages …
 
 * http://themes.semicolonweb.com/html/canvas/services.html
-portfolio.html
 
 * http://themes.semicolonweb.com/html/canvas/portfolio.html
+
 The page MUST contain the following elements …
 
-1 Page heading and nav bar
+1. Page heading and nav bar
 2. 3 Column section.
 3. A 1 column hero unit (Hero section to be full width, edge to edge, other sections to be 960 grid)
 4. A footer. With social links and site links. (These need not be functional) - use font awesome icons http://fontawesome.io/icons/
