@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>MovieBase - A Complete Database of the Box Office</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -13,6 +13,7 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/style.css"> <!--Linking my style.css-->
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -22,8 +23,31 @@
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <!-- Add your site or application content here
+    <p>Hello world! This is HTML5 Boilerplate.</p>
+  -->
+
+  <!--Begin Page Layout-->
+
+  <header class="myHeader"> <!--Header Begins-->
+    <img class="myLogo" src="img/moviebase.jpg">
+    <div class="headSearchBar">
+      <input type="search" placeholder="Search.." name="search">
+      <button type="submit"> Search </button>
+    </div>
+      <h4><button type="submit"> <a href="#">Sign Up / Sign In</a> </button></h4>
+  </header> <!--Header Ends-->
+
+  <nav class="myNavbar"> <!--Nav Bar begins here-->
+    <a href="#">Home</a>
+    <a href="#">Movies</a>
+    <a href="#">Actors</a>
+    <a href="#">Some Trivia</a>
+  </nav> <!--Nav Bar ends here-->
+
+  <!--End Page Layout-->
+
+  <!--All the JavaScript is down here-->
   <script src="js/vendor/modernizr-3.7.1.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>

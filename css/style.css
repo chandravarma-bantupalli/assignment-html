@@ -1,0 +1,20 @@
+.myHeader {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.myLogo{
+    float: left;
+}
+
+.myNavbar{
+    width: 100%;
+    background: #eee;
+}
+
+.myNavbar a{
+    padding: 10px;
+    font-size: 18px;
+}
