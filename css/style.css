@@ -6,7 +6,13 @@
 }
 
 .myLogo{
-    float: left;
+    position: relative;
+    left: 30px;
+}
+
+.signInButton{
+    position: relative;
+    right: 30px;
 }
 
 .myNavbar{
@@ -14,11 +20,13 @@
     background: #eee;
     overflow: hidden;
     position: sticky;
+    top: 0;
 }
 
 .myNavbar a{
-    padding: 10px;
-    font-size: 18px;
+    border: 10px;
+    padding: 20px;
+    font-size: 22px;
 }
 
 main{
@@ -30,4 +38,30 @@ main{
     margin: auto;
     padding: 20px;
     text-align: justify;
+}
+
+#favMovies{
+    background: cyan;
+}
+
+.movieCard{
+    background: lightcyan;
+    height: 400px;
+    width: 500px;
+    margin: 20px;
+    align-items: center;
+}
+
+.movieCard p{
+    text-align: center;
+}
+
+.moviePoster{
+    height: 250px;
+    width: 200px;
+    align-self: center;
+}
+
+figcaption{
+    text-align: center;
 }

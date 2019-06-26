@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/style.css"> <!--Linking my style.css-->
+  <link rel="stylesheet" href="css/960.css"> <!--Linking to 960.css to apply grid system-->
 
   <meta name="theme-color" content="#fafafa">
 </head>
@@ -35,7 +36,9 @@
       <input type="search" placeholder="Search.." name="search">
       <button type="submit"> Search </button>
     </div>
+    <div class="signInButton">
       <h4><button type="submit"> <a href="#">Sign Up / Sign In</a> </button></h4>
+    </div>
   </header> <!--Header Ends-->
 
   <nav class="myNavbar"> <!--Nav Bar begins here-->
@@ -53,6 +56,132 @@
       <p>Traditionally, films were recorded onto celluloid film through a photochemical process and then shown through a movie projector onto a large screen. Contemporary films are often fully digital through the entire process of production, distribution, and exhibition, while films recorded in a photochemical form traditionally included an analogous optical soundtrack (a graphic recording of the spoken words, music and other sounds that accompany the images which runs along a portion of the film exclusively reserved for it, and is not projected).</p>    
     </div>
   </main> <!--Main tag Ends here-->
+
+  <div class="container_12" id="favMovies"> <!--Grid Layout Added-->
+    <div class="grid_12">
+      <h3>Some of my favourite movies</h3>
+    </div>
+
+    <div>
+      <section>
+        <article class="grid_4 movieCard">
+          <figure>
+            <img src="img/moviePosters/Ironmanposter.jpg" alt="Iron Man" class="moviePoster">
+            <figcaption><h3>Iron Man</h3></figcaption>
+          </figure>
+          <p><strong>Ratings: </strong>7.9 / 10</p>
+        </article>
+        <article class="grid_4 movieCard">
+          <figure>
+            <img src="img/moviePosters/hulk.jpg" alt="Hulk" class="moviePoster">
+            <figcaption><h3>Hulk</h3></figcaption>
+          </figure>
+          <p><strong>Ratings: </strong>6.7 / 10</p>
+        </article>
+        <article class="grid_4 movieCard">
+          <figure>
+            <img src="img/moviePosters/Iron_Man_2_poster.jpg" alt="Iron Man 2" class="moviePoster">
+            <figcaption><h3>Iron Man 2</h3></figcaption>
+          </figure>
+          <p><strong>Ratings: </strong>7.0 / 10</p>
+        </article>
+      </section>
+      <section>
+        <article class="grid_4 movieCard">
+          <figure>
+            <img src="img/moviePosters/Thor_poster.jpg" alt="Thor" class="moviePoster">
+            <figcaption><h3>Thor</h3></figcaption>
+          </figure>
+          <p><strong>Ratings: </strong>7.0 / 10</p>
+        </article>
+        <article class="grid_4 movieCard">
+          <figure>
+            <img src="img/moviePosters/Captain_America_The_First_Avenger_poster.jpg" alt="Captain America First Avenger" class="moviePoster">
+            <figcaption><h3>Captain America: The First Avenger</h3></figcaption>
+          </figure>
+          <p><strong>Ratings: </strong>6.9 / 10</p>
+        </article>
+        <article class="grid_4 movieCard">
+          <figure>
+            <img src="img/moviePosters/TheAvengers2012Poster.jpg" alt="The Avengers" class="moviePoster">
+            <figcaption><h3>The Avengers</h3></figcaption>
+          </figure>
+          <p><strong>Ratings: </strong>8.1 / 10</p>
+        </article>
+      </section>
+      <section>
+        <article class="grid_4 movieCard">
+          <figure>
+            <img src="img/moviePosters/Iron_Man_3_theatrical_poster.jpg" alt="Iron Man 3" class="moviePoster">
+            <figcaption><h3>Iron Man 3</h3></figcaption>
+          </figure>
+          <p><strong>Ratings: </strong>7.2 / 10</p>
+        </article>
+        <article class="grid_4 movieCard">
+          <figure>
+            <img src="img/moviePosters/Captain_America_The_Winter_Soldier.jpg" alt="Winter Soldier" class="moviePoster">
+            <figcaption><h3>Captain America: The Winter Soldier</h3></figcaption>
+          </figure>
+          <p><strong>Ratings: </strong>7.8 / 10</p>
+        </article>
+        <article class="grid_4 movieCard">
+          <figure>
+            <img src="img/moviePosters/Guardians_of_the_Galaxy_poster.jpg" alt="GoTG vol1" class="moviePoster">
+            <figcaption><h3>Guardians of The Galaxy</h3></figcaption>
+          </figure>
+          <p><strong>Ratings: </strong>8.1 / 10</p>
+        </article>
+      </section>
+      <section>
+        <article class="grid_4 movieCard">
+          <figure>
+            <img src="img/moviePosters/Avengers_Age_of_Ultron_poster.jpg" alt="Age of Ultron" class="moviePoster">
+            <figcaption><h3>Avengers: Age of Ultron</h3></figcaption>
+          </figure>
+          <p><strong>Ratings: </strong>7.3 / 10</p>
+        </article>
+        <article class="grid_4 movieCard">
+          <figure>
+            <img src="img/moviePosters/Ant-Man_poster.jpg" alt="Ant Man" class="moviePoster">
+            <figcaption><h3>Ant Man</h3></figcaption>
+          </figure>
+          <p><strong>Ratings: </strong>7.3 / 10</p>
+        </article>
+        <article class="grid_4 movieCard">
+          <figure>
+            <img src="img/moviePosters/Captain_America_Civil_War_poster.jpg" alt="Civil War" class="moviePoster">
+            <figcaption><h3>Captain America: Civil War</h3></figcaption>
+          </figure>
+          <p><strong>Ratings: </strong>7.8 / 10</p>
+        </article>
+      </section>
+      <section>
+        <article class="grid_4 movieCard">
+          <figure>
+            <img src="img/moviePosters/Doctor_Strange_poster.jpg" alt="Doctor Strange" class="moviePoster">
+            <figcaption><h3>Doctor Strange</h3></figcaption>
+          </figure>
+          <p><strong>Ratings: </strong>7.5 / 10</p>
+        </article>
+        <article class="grid_4 movieCard">
+          <figure>
+            <img src="img/moviePosters/Black_Panther_film_poster.jpg" alt="Black Panther" class="moviePoster">
+            <figcaption><h3>Black Panther</h3></figcaption>
+          </figure>
+          <p><strong>Ratings: </strong>7.3 / 10</p>
+        </article>
+        <article class="grid_4 movieCard">
+          <figure>
+            <img src="img/moviePosters/Avengers_Infinity_War_poster.jpg" alt="Infinity War" class="moviePoster">
+            <figcaption><h3>Avengers: Infinity War</h3></figcaption>
+          </figure>
+          <p><strong>Ratings: </strong>8.5 / 10</p>
+        </article>
+      </section>
+    </div>
+  </div> <!--Grid Layout with 3 columns ends here-->
+
+
 
   <!--End Page Layout-->
 
