@@ -8,6 +8,8 @@
 .myLogo{
     position: relative;
     left: 30px;
+    height: 50px;
+    width: 50px;
 }
 
 .signInButton{
@@ -17,6 +19,7 @@
 
 .myNavbar{
     width: 100%;
+    margin: 10px 10px;
     background: #eee;
     overflow: hidden;
     position: sticky;
@@ -122,4 +125,9 @@ figcaption{
 .myFooter a{
     font-size: 22px;
     text-align: center;
+}
+
+.movieTitle{
+    font-family: 'Noto Serif', serif;
+    text-transform: uppercase;
 }
